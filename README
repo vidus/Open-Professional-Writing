@@ -1,0 +1,13 @@
+Open Professional Writing
+---------------------------
+Open Professional Writing is a Drupal-based course management system for 
+writing classrooms.  The current build is based on Drupal 6, with Drupal 7
+support coming in the next few weeks.
+
+Open PW is the product of two years of development during my time administrating
+the course sites for the Professional Writing program at Purdue University.  
+
+This repository will contain the database files for this project and additionally the Drupal install current for that database, with custom themes included.
+
+Unless you are confident in the ability of your mySQL and php settings, make use of the 
+compressed versions of each database when uploading to mySQL.
