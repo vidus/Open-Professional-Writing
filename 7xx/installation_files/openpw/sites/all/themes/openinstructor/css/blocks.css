@@ -1,0 +1,321 @@
+/* Blocks */
+.block {
+  margin-bottom: 20px;
+}
+
+.block-inner {} /* set block background styles on .block-inner */
+.block-title {}
+.block-content {
+}
+.block-content a {
+  color: #000;
+  text-decoration: none;
+}
+
+.block-content a:hover {
+  text-decoration: underline;
+}
+/* Mini panels get a special title class */
+.mini-panel-title {
+  margin: 0 10px;
+}
+
+/* Target sidebar blocks */
+.sidebar .block {
+  margin-top: 10px;
+}
+.sidebar .block-inner {
+}
+.sidebar .block-title {
+  text-align: left;
+  background-color: #008000;
+  border-top-right-radius: 9px;
+  border-top-left-radius: 9px;
+  color: #FFF;
+  text-indent: 5px;
+  padding-bottom: 2%;
+  padding-top: 2%;
+  box-shadow: 3px 3px 4px 1px #858080;
+  font-size: 100%;
+  background-position: 90% 40%;
+  background-repeat: no-repeat;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.sidebar .block-content {
+  background-color: #89c489;
+  border-bottom-right-radius: 9px;
+  border-bottom-left-radius: 9px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  box-shadow: 3px 3px 4px 1px #858080;
+  text-align: center;
+  padding-right: 1%;
+  padding-left: 4%;
+}
+
+/* Gpanel blocks */
+.gpanel .block {}
+.gpanel .block-inner {}
+.gpanel .block-title {}
+.gpanel .block-content {}
+
+/* Block wrapper for Mini Panels */
+.block-panels_mini {}
+.block-panels_mini .block-inner {}
+.block-panels_mini .block-content {}
+.block-panels_mini .mini-panel-title {
+  margin: 0 10px;
+}
+
+/* Login block - horizontal (theme setting) basic styles */
+.lb-h {
+  min-width: 320px;
+  margin-top: 1px;
+}
+.region-header .lb-h {
+  float: right;
+}
+.lb-h .block-inner,
+.lb-h .block-content {
+  background: none;
+  padding: 0;
+}
+.lb-h #user-login-form {
+  margin: 0;
+}
+.lb-h #user-login-form label {
+  line-height: 1.2
+}
+.lb-h .form-item {
+  float:left;
+  margin: 0;
+}
+.lb-h input.form-text {
+  margin:0 3px 0 0;
+  width:110px;
+}
+.lb-h #edit-actions {
+  margin: 0;
+}
+.lb-h input.form-submit {
+  position: absolute;
+  margin: 0;
+  top: 1.2em;
+}
+.lb-h .form-required,
+.lb-h .item-list {
+  display: none;
+}
+.lb-h h2 {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+/* Reset margins and padding for the Help block .block-inner */
+#block-system-help .block-inner {
+  padding: 0;
+  margin: 0;
+}
+
+/* Reset block ul in the dashboard */
+#dashboard .block ul {
+  margin-left: 0;
+}
+/* CUSTOM MENU STYLINGS HERE */
+#block-system-user-menu /* "User menu" block for Drupal user menu */ {
+}
+#block-system-user-menu h2.block-title{
+  background-image: url(images/account.png);
+  box-shadow: 3px 3px 4px 1px #858080;
+}
+#block-system-user-menu .content{
+  box-shadow: 3px 3px 4px 1px #858080;
+}
+#block-menu-menu-grading {}
+#block-menu-menu-grading h2.block-title{ /*INSTRUCTOR GRADING BLOCK*/
+  background-image: url(images/tracker.png);
+  box-shadow: 3px 3px 4px 1px #858080;
+}
+#block-menu-menu-administer{}
+#block-menu-menu-administer h2.block-title{
+  background-image: url(images/admin.png);
+  box-shadow: -3px 3px 4px 1px #858080;
+}
+#block-menu-menu-administer .content{
+  box-shadow: -3px 3px 4px 1px #858080;
+}
+#block-menu-menu-instruct{}
+#block-menu-menu-instruct h2.block-title{
+  box-shadow: 3px 3px 4px 1px #858080;
+  background-image: url(images/deploy.png);
+}
+}
+#block-menu-menu-instruct .content {
+  box-shadow: 3px 3px 4px 1px #858080;
+}
+}
+#block-menu-menu-grading .content {
+  box-shadow: 3px 3px 4px 1px #858080;
+}
+#block-menu-menu-drafting /* Custom menu block  */ {
+}
+#block-menu-menu-drafting h2.block-title{
+  background-image: url(images/drafting.png);
+  box-shadow: 3px 3px 4px 1px #858080;
+}
+#block-menu-menu-drafting .content{
+  box-shadow: 3px 3px 4px 1px #858080;
+}
+#block-menu-menu-social /* Custom menu block  */ {
+}
+#block-menu-menu-social h2.block-title{
+  background-image: url(images/drafting.png);
+  box-shadow: 3px 3px 4px 1px #858080;
+}
+#block-menu-menu-social .content{
+  box-shadow: 3px 3px 4px 1px #858080;
+}
+#block-menu-menu-calendar /* Custom menu block  */ {
+}
+#block-menu-menu-calendar h2.block-title{
+  background-image: url(images/calendar.png);
+  box-shadow: -3px 3px 4px 1px #858080;
+}
+#block-menu-menu-calendar .content{
+  box-shadow: -3px 3px 4px 1px #858080;
+}
+#block-menu-menu-grades /* Custom menu block  */ {
+}
+#block-menu-menu-grades .block-title{
+  background-image: url(images/tracker.png);
+ 
+  box-shadow: -3px 3px 4px 1px #858080;
+}
+#block-menu-menu-grades .content{
+  box-shadow: -3px 3px 4px 1px #858080;
+}
+#block-menu-menu-contact /* Custom menu block  */ {
+}
+#block-menu-menu-contact h2.block-title{
+  background-image: url(images/mail.png);   
+  box-shadow: -3px 3px 4px 1px #858080;
+}
+#block-menu-menu-contact .content{
+  box-shadow: -3px 3px 4px 1px #858080;
+}
+/* CUSTOM BLOCKS THAT ARE NOT NAVIGATION */
+#block-views-grade-group-block-1 .inner{
+}
+#block-views-grade-group-block-1 h2.block-title{
+  text-align: center;
+  background-color: #008000;
+  border-top-right-radius: 9px;
+  border-top-left-radius: 9px;
+  color: #FFF;
+  font-size: 100%;
+}
+#block-views-grade-group-block-1 .content{
+  box-shadow: 3px 3px 4px 1px #858080;
+  background-color: #89c489;
+  text-align: center;
+  border-bottom-right-radius: 9px;
+  border-bottom-left-radius: 9px;
+  margin-bottom: 2.5em;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 2%;
+  
+}
+#block-views-grade-student-block-1 {
+}
+#block-views-grade-student-block-1 h2.block-title{
+  text-align: center;
+  background-color: #008000;
+  border-top-right-radius: 9px;
+  border-top-left-radius: 9px;
+  color: #FFF;
+  text-indent: 5px;
+  font-size: 100%;
+  box-shadow: 3px 3px 4px 1px #858080;
+}
+#block-views-grade-student-block-1 .content{
+  box-shadow: 3px 3px 4px 1px #858080;
+  background-color: #89c489;
+  text-align: center;
+  border-bottom-right-radius: 9px;
+  border-bottom-left-radius: 9px;
+  margin-bottom: 2.5em;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 2%;
+}
+
+#block-views-instructor-grading-block-block h2.block-title {
+  text-align: center;
+  background-color: #008000;
+  border-top-right-radius: 9px;
+  border-top-left-radius: 9px;
+  color: #FFF;
+  text-indent: 5px;
+  font-size: 100%;
+  box-shadow: 3px 3px 4px 1px #858080;
+}
+#block-views-instructor-grading-block-block .content {
+  box-shadow: 3px 3px 4px 1px #858080;
+  background-color: #89c489;
+  text-align: center;
+  border-bottom-right-radius: 9px;
+  border-bottom-left-radius: 9px;
+  margin-bottom: 2.5em;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 2%;
+}
+#block-privatemsg-privatemsg-new{
+  margin-top: 1%;
+}
+#block-privatemsg-privatemsg-new h2.block-title{
+  text-align: center;
+  background-color: #008000;
+  border-top-right-radius: 9px;
+  border-top-left-radius: 9px;
+  color: #FFF;
+  text-indent: 5px;
+  font-size: 100%;
+  box-shadow: 3px 3px 4px 1px #858080;
+}
+#block-privatemsg-privatemsg-new .content{
+  box-shadow: 3px 3px 4px 1px #858080;
+  background-color: #89c489;
+  text-align: center;
+  border-bottom-right-radius: 9px;
+  border-bottom-left-radius: 9px;
+
+}
+/*  TEST FOR USING FIELD THEMEING.  WOULD NEED SPECIFICS PUT INTO PHP
+ .field .field-label{
+  background-color: #grey;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  padding-left: 10px;
+  color: #FFF;
+}
+.field {
+  background-color: grey;
+  border-top-right-radius: 11px;
+  border-top-left-radius: 11px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: inline-block;
+}
+.field-item {
+  padding-left: 10px;
+}
+.field-item a:link {
+  color: #FFF;
+}
+.field-item a:hover {
+  color: #000;
+}*/
