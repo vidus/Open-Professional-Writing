@@ -7,3 +7,5 @@ Open PW is the product of two years of development during my time administrating
 the course sites for the Professional Writing program at Purdue University.  
 
 This repository contains a full Drupal 7.xx installation and database for Open Professional Writing.  Included are the modules and custom themes to make the site work.  
+
+Currently, an implementation of the site as a Features module is under development for Drupal 7.
