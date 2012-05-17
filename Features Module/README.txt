@@ -1,0 +1,1 @@
+To be added in the near future: a features module for the site.  This will allow the site to be installed as Drupal module, with blocks and themes positioned by the user, but all features included at the get-go in a simple-to-install format.
